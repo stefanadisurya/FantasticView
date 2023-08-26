@@ -8,9 +8,10 @@ This fantastic view changes its color gradually makes your app look fantastic!
                        DESC
  
   s.homepage         = 'https://github.com/stefanadisurya/FantasticView'
-  s.license          = { :type => 'MIT', :file => 'MIT-LICENSE.txt' }
+  s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Stefan Adisurya' => 'stefanadisurya@gmail.com' }
   s.source           = { :git => 'https://github.com/stefanadisurya/FantasticView.git', :tag => s.version.to_s }
+  s.swift_versions   = '4.0'
  
   s.ios.deployment_target = '11.0'
   s.source_files = 'FantasticView/FantasticView.swift'
