@@ -6,15 +6,18 @@
 //
 
 import AsyncDisplayKit
+import TextureSwiftSupport
 
 public final class FantasticViewController: ASDKViewController<ASDisplayNode> {
     // MARK: - Views
     
-    private let fantasticNode: FantasticNode = FantasticNode()
+    private let fantasticNode: FantasticNode
     
     // MARK: - Life Cycle
 
-    override public init() {
+    public init(useVanilla: Bool) {
+        fantasticNode = FantasticNode(useVanilla: useVanilla)
+        
         super.init(node: ASDisplayNode())
         
         node.automaticallyManagesSubnodes = true
@@ -28,6 +31,7 @@ public final class FantasticViewController: ASDKViewController<ASDisplayNode> {
     
     override public func viewDidLoad() {
         super.viewDidLoad()
+        node.backgroundColor = .white
     }
     
     // MARK: - Functions
@@ -36,7 +40,7 @@ public final class FantasticViewController: ASDKViewController<ASDisplayNode> {
         return { [weak self] _, _ in
             guard let self = self else { return ASLayoutSpec() }
             
-            return ASWrapperLayoutSpec(layoutElement: fantasticNode)
+            return ASWrapperLayoutSpec(layoutElement: self.fantasticNode)
         }
     }
 }

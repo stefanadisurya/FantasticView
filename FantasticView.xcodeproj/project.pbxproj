@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0FE6B3700C8C49011E015832 /* Pods_FantasticView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61C6B30909C342F571AA13F5 /* Pods_FantasticView.framework */; };
+		A5CBDCBF94B476818BDC03F0 /* Pods_FantasticViewTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA4775CEC8C7D5334D410BEA /* Pods_FantasticViewTests.framework */; };
+		ED70D5A1DF5A3158D1AE1C12 /* Pods_FantasticView_FantasticViewUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01B3170BD4F09063F8D92312 /* Pods_FantasticView_FantasticViewUITests.framework */; };
+		F3684FD62AA2EA100048A32B /* FantasticNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3684FD52AA2EA100048A32B /* FantasticNode.swift */; };
+		F3684FD82AA2EACF0048A32B /* FantasticViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3684FD72AA2EACF0048A32B /* FantasticViewController.swift */; };
+		F3684FDD2AA2EEA50048A32B /* SceneDelegate+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3684FDC2AA2EEA50048A32B /* SceneDelegate+Extension.swift */; };
 		F3A8B62F2A99A12800D1D5DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A8B62E2A99A12800D1D5DD /* AppDelegate.swift */; };
 		F3A8B6312A99A12800D1D5DD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A8B6302A99A12800D1D5DD /* SceneDelegate.swift */; };
 		F3A8B6332A99A12800D1D5DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A8B6322A99A12800D1D5DD /* ViewController.swift */; };
@@ -37,6 +43,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01B3170BD4F09063F8D92312 /* Pods_FantasticView_FantasticViewUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FantasticView_FantasticViewUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0711E9E3AE2E569C80AF514E /* Pods-FantasticView-FantasticViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FantasticView-FantasticViewUITests.debug.xcconfig"; path = "Target Support Files/Pods-FantasticView-FantasticViewUITests/Pods-FantasticView-FantasticViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2A0456D2B860A6AF09D6B262 /* Pods-FantasticView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FantasticView.release.xcconfig"; path = "Target Support Files/Pods-FantasticView/Pods-FantasticView.release.xcconfig"; sourceTree = "<group>"; };
+		35BA4FB7C008D7D19C487F91 /* Pods-FantasticView-FantasticViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FantasticView-FantasticViewUITests.release.xcconfig"; path = "Target Support Files/Pods-FantasticView-FantasticViewUITests/Pods-FantasticView-FantasticViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3F75D2D15AA7178C01556B2C /* Pods-FantasticViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FantasticViewTests.release.xcconfig"; path = "Target Support Files/Pods-FantasticViewTests/Pods-FantasticViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		61C6B30909C342F571AA13F5 /* Pods_FantasticView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FantasticView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA4775CEC8C7D5334D410BEA /* Pods_FantasticViewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FantasticViewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDDD00ACD71FF143D7874B34 /* Pods-FantasticView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FantasticView.debug.xcconfig"; path = "Target Support Files/Pods-FantasticView/Pods-FantasticView.debug.xcconfig"; sourceTree = "<group>"; };
+		D9300A98D5D4E1EFE6891991 /* Pods-FantasticViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FantasticViewTests.debug.xcconfig"; path = "Target Support Files/Pods-FantasticViewTests/Pods-FantasticViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F3684FD52AA2EA100048A32B /* FantasticNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FantasticNode.swift; sourceTree = "<group>"; };
+		F3684FD72AA2EACF0048A32B /* FantasticViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FantasticViewController.swift; sourceTree = "<group>"; };
+		F3684FDC2AA2EEA50048A32B /* SceneDelegate+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SceneDelegate+Extension.swift"; sourceTree = "<group>"; };
 		F3A8B62B2A99A12800D1D5DD /* FantasticView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FantasticView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3A8B62E2A99A12800D1D5DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3A8B6302A99A12800D1D5DD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FE6B3700C8C49011E015832 /* Pods_FantasticView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5CBDCBF94B476818BDC03F0 /* Pods_FantasticViewTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +92,52 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED70D5A1DF5A3158D1AE1C12 /* Pods_FantasticView_FantasticViewUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		57E480DFB2201E76459E015A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CDDD00ACD71FF143D7874B34 /* Pods-FantasticView.debug.xcconfig */,
+				2A0456D2B860A6AF09D6B262 /* Pods-FantasticView.release.xcconfig */,
+				0711E9E3AE2E569C80AF514E /* Pods-FantasticView-FantasticViewUITests.debug.xcconfig */,
+				35BA4FB7C008D7D19C487F91 /* Pods-FantasticView-FantasticViewUITests.release.xcconfig */,
+				D9300A98D5D4E1EFE6891991 /* Pods-FantasticViewTests.debug.xcconfig */,
+				3F75D2D15AA7178C01556B2C /* Pods-FantasticViewTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F3684FD92AA2EE480048A32B /* UIKitExample */ = {
+			isa = PBXGroup;
+			children = (
+				F3A8B65E2A99A15E00D1D5DD /* FantasticView.swift */,
+				F3A8B6322A99A12800D1D5DD /* ViewController.swift */,
+			);
+			path = UIKitExample;
+			sourceTree = "<group>";
+		};
+		F3684FDA2AA2EE6D0048A32B /* TextureExample */ = {
+			isa = PBXGroup;
+			children = (
+				F3684FD52AA2EA100048A32B /* FantasticNode.swift */,
+				F3684FD72AA2EACF0048A32B /* FantasticViewController.swift */,
+			);
+			path = TextureExample;
+			sourceTree = "<group>";
+		};
+		F3684FDB2AA2EE8F0048A32B /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				F3684FDC2AA2EEA50048A32B /* SceneDelegate+Extension.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		F3A8B6222A99A12800D1D5DD = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +145,8 @@
 				F3A8B6442A99A12A00D1D5DD /* FantasticViewTests */,
 				F3A8B64E2A99A12A00D1D5DD /* FantasticViewUITests */,
 				F3A8B62C2A99A12800D1D5DD /* Products */,
+				57E480DFB2201E76459E015A /* Pods */,
+				F8306F31290D218FF821B295 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +163,15 @@
 		F3A8B62D2A99A12800D1D5DD /* FantasticView */ = {
 			isa = PBXGroup;
 			children = (
+				F3684FDB2AA2EE8F0048A32B /* Helper */,
+				F3684FDA2AA2EE6D0048A32B /* TextureExample */,
+				F3684FD92AA2EE480048A32B /* UIKitExample */,
 				F3A8B62E2A99A12800D1D5DD /* AppDelegate.swift */,
 				F3A8B6302A99A12800D1D5DD /* SceneDelegate.swift */,
-				F3A8B6322A99A12800D1D5DD /* ViewController.swift */,
 				F3A8B6342A99A12800D1D5DD /* Main.storyboard */,
 				F3A8B6372A99A12900D1D5DD /* Assets.xcassets */,
 				F3A8B6392A99A12900D1D5DD /* LaunchScreen.storyboard */,
 				F3A8B63C2A99A12900D1D5DD /* Info.plist */,
-				F3A8B65E2A99A15E00D1D5DD /* FantasticView.swift */,
 			);
 			path = FantasticView;
 			sourceTree = "<group>";
@@ -130,6 +193,16 @@
 			path = FantasticViewUITests;
 			sourceTree = "<group>";
 		};
+		F8306F31290D218FF821B295 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				61C6B30909C342F571AA13F5 /* Pods_FantasticView.framework */,
+				01B3170BD4F09063F8D92312 /* Pods_FantasticView_FantasticViewUITests.framework */,
+				AA4775CEC8C7D5334D410BEA /* Pods_FantasticViewTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +210,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F3A8B6552A99A12A00D1D5DD /* Build configuration list for PBXNativeTarget "FantasticView" */;
 			buildPhases = (
+				8BDEB48959A92836EB565595 /* [CP] Check Pods Manifest.lock */,
 				F3A8B6272A99A12800D1D5DD /* Sources */,
 				F3A8B6282A99A12800D1D5DD /* Frameworks */,
 				F3A8B6292A99A12800D1D5DD /* Resources */,
+				6979A19B01CDF8471CF62D49 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +229,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F3A8B6582A99A12A00D1D5DD /* Build configuration list for PBXNativeTarget "FantasticViewTests" */;
 			buildPhases = (
+				847FFF4F9809241BB32F6B59 /* [CP] Check Pods Manifest.lock */,
 				F3A8B63D2A99A12A00D1D5DD /* Sources */,
 				F3A8B63E2A99A12A00D1D5DD /* Frameworks */,
 				F3A8B63F2A99A12A00D1D5DD /* Resources */,
@@ -172,9 +248,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F3A8B65B2A99A12A00D1D5DD /* Build configuration list for PBXNativeTarget "FantasticViewUITests" */;
 			buildPhases = (
+				05377E2BC6F2A72071336EC7 /* [CP] Check Pods Manifest.lock */,
 				F3A8B6472A99A12A00D1D5DD /* Sources */,
 				F3A8B6482A99A12A00D1D5DD /* Frameworks */,
 				F3A8B6492A99A12A00D1D5DD /* Resources */,
+				9AFAD620141B7C5B8044B182 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -256,6 +334,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		05377E2BC6F2A72071336EC7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FantasticView-FantasticViewUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6979A19B01CDF8471CF62D49 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FantasticView/Pods-FantasticView-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FantasticView/Pods-FantasticView-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FantasticView/Pods-FantasticView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		847FFF4F9809241BB32F6B59 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FantasticViewTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BDEB48959A92836EB565595 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FantasticView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AFAD620141B7C5B8044B182 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FantasticView-FantasticViewUITests/Pods-FantasticView-FantasticViewUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FantasticView-FantasticViewUITests/Pods-FantasticView-FantasticViewUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FantasticView-FantasticViewUITests/Pods-FantasticView-FantasticViewUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F3A8B6272A99A12800D1D5DD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -263,7 +444,10 @@
 			files = (
 				F3A8B6332A99A12800D1D5DD /* ViewController.swift in Sources */,
 				F3A8B62F2A99A12800D1D5DD /* AppDelegate.swift in Sources */,
+				F3684FD82AA2EACF0048A32B /* FantasticViewController.swift in Sources */,
+				F3684FDD2AA2EEA50048A32B /* SceneDelegate+Extension.swift in Sources */,
 				F3A8B65F2A99A15E00D1D5DD /* FantasticView.swift in Sources */,
+				F3684FD62AA2EA100048A32B /* FantasticNode.swift in Sources */,
 				F3A8B6312A99A12800D1D5DD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -436,6 +620,7 @@
 		};
 		F3A8B6562A99A12A00D1D5DD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDDD00ACD71FF143D7874B34 /* Pods-FantasticView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -463,6 +648,7 @@
 		};
 		F3A8B6572A99A12A00D1D5DD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A0456D2B860A6AF09D6B262 /* Pods-FantasticView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -490,6 +676,7 @@
 		};
 		F3A8B6592A99A12A00D1D5DD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9300A98D5D4E1EFE6891991 /* Pods-FantasticViewTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,6 +697,7 @@
 		};
 		F3A8B65A2A99A12A00D1D5DD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F75D2D15AA7178C01556B2C /* Pods-FantasticViewTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -530,6 +718,7 @@
 		};
 		F3A8B65C2A99A12A00D1D5DD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0711E9E3AE2E569C80AF514E /* Pods-FantasticView-FantasticViewUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -548,6 +737,7 @@
 		};
 		F3A8B65D2A99A12A00D1D5DD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35BA4FB7C008D7D19C487F91 /* Pods-FantasticView-FantasticViewUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
