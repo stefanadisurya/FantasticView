@@ -38,7 +38,7 @@ public class FantasticView: UIView {
         let scheduledColorChanged = Timer.scheduledTimer(withTimeInterval: 2.0, repeats: true) { timer in
             UIView.animate(withDuration: 2.0) { [weak self] in
                 guard let self = self else { return }
-                self.layer.backgroundColor = self.colors[self.colorCounter % 6].cgColor
+                self.layer.backgroundColor = self.colors[self.colorCounter % self.colors.count].cgColor
                 self.colorCounter += 1
             }
         }
