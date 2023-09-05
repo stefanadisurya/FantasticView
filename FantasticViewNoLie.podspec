@@ -14,7 +14,7 @@ This fantastic view changes its color gradually makes your app look fantastic!
   s.swift_versions   = '4.0'
 
   s.ios.deployment_target = '13.0'
-  s.source_files = ['FantasticView/TextureExample/*.swift', 'FantasticView/UIKitExample/*.swift', 'FantasticView/Helper/*.swift']
+  s.source_files = ['FantasticView/UIKitExample/*.swift', 'FantasticView/Helper/*.swift']
   s.dependency 'Texture'
   s.dependency 'TextureSwiftSupport'
  
