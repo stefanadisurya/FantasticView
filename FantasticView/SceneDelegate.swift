@@ -20,7 +20,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
         configure(
             with: windowScene,
-            vc: FantasticViewController(useVanilla: false)
+            vc: ViewController()
         )
     }
 

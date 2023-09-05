@@ -12,8 +12,10 @@ This fantastic view changes its color gradually makes your app look fantastic!
   s.author           = { 'Stefan Adisurya' => 'stefanadisurya@gmail.com' }
   s.source           = { :git => 'https://github.com/stefanadisurya/FantasticView.git', :tag => s.version.to_s }
   s.swift_versions   = '4.0'
- 
-  s.ios.deployment_target = '11.0'
-  s.source_files = 'FantasticView/*.swift'
+
+  s.ios.deployment_target = '13.0'
+  s.source_files = ['FantasticView/TextureExample/*.swift', 'FantasticView/UIKitExample/*.swift', 'FantasticView/Helper/*.swift']
+  s.dependency 'Texture'
+  s.dependency 'TextureSwiftSupport'
  
 end
