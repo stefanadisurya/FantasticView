@@ -13,7 +13,6 @@ public class FantasticView: UIView {
     private let colors : [UIColor] = [
         .red,
         .orange,
-        .yellow,
         .green,
         .blue,
         .purple
